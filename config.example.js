@@ -1,7 +1,7 @@
 export default {
     // The interval for updating bot statuses (in seconds).
     // This defines how frequently the bot fetches server data and updates its presence.
-    interval: "",
+    interval: 60,
 
     // Emojis used in the bot's status to represent various states.
     emojis: {

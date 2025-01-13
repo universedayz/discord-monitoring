@@ -1,29 +1,33 @@
-### 🛠️ Requirements
+## 🛠️ Requirements
 
-- **Node.js** (version 16 or later)
+- **[Node.js](https://nodejs.org/)** (version 16 or later)
 - A **DayZ server** with accessible IP and port.
-- **Discord Developer Portal** bot tokens for each server you wish to monitor.
+- **[Discord Developer Portal](https://discord.com/developers/applications)** bot tokens for each server you wish to monitor.
 
-### 📂 Installation
+## 📂 Installation
 
 1. **Clone the Repository**:
-   ```bash  
-   git clone https://github.com/yourusername/dayz-monitoring-bot.git  
+   ```
+   git clone git@github.com:intejie/discord-dayz-server-monitoring.git  
    cd dayz-monitoring-bot  
    ```
 
 2. **Install Dependencies**:
-   ```bash  
+   ```
    npm install
    ```
 
 3. **Copy the example configuration file**:
-    ```bash
+    ```
+   # Linux, MacOS
    cp config.example.js config.js  
+   
+   # Windows
+   copy config.example.js config.js
    ```
 
-4. Edit `config.js` to add your DayZ server details and discord bot tokens
-    ```bash
+4. **Edit `config.js` to add your DayZ server details and discord bot tokens**
+    ```js
     export default {  
      interval: "60",  
      emojis: {  
@@ -47,6 +51,6 @@
     ```
 
 5. **Run the bots**
-    ```bash
-    node src/index.js
+    ```
+    npm run start
     ```
