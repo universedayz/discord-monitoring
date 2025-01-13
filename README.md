@@ -22,7 +22,7 @@
 
 2. **Install Dependencies**:
    ```
-   npm installnom
+   npm install
    ```
 
 3. **Copy the example configuration file**:
