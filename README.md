@@ -26,7 +26,7 @@
    copy config.example.js config.js
    ```
 
-4. **Edit `config.js` to add your DayZ server details and discord bot tokens**
+4. **Edit** `config.js` **to add your DayZ server details and discord bot tokens**
     ```js
     export default {  
      interval: "60",  
