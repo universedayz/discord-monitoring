@@ -3,7 +3,7 @@
    <br>
    <img src="./.readme/assets/sidebar.png" alt="Sidebar view"/>
    <p align="center">
-      example from <a href="https://discord.com/invite/7wUk2F2Yfm">«universe / DayZ»</a>
+      example from <a href="https://discord.com/invite/7wUk2F2Yfm">universe / DayZ</a>
    </p>
 </div>
 
