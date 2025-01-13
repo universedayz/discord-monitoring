@@ -1,0 +1,19 @@
+{
+  "name": "discord-dayz-server-monitoring",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "dependencies": {
+    "discord.js": "^14.17.3",
+    "gamedig": "^5.1.4",
+    "nodemon": "^3.1.9"
+  }
+}
