@@ -18,9 +18,9 @@
    ```
 
 3. **Copy the example configuration file**:
-    ```
+   ```
    # Linux, MacOS
-   cp config.example.js config.js  
+   cp config.example.js config.js
    
    # Windows
    copy config.example.js config.js
@@ -29,7 +29,8 @@
 4. **Edit** `config.js` **to add your DayZ server details and discord bot tokens**
     ```js
     export default {  
-     interval: "60",  
+     interval: "60",
+     unavailable: "Server is down.",
      emojis: {  
         human: "👤",  
         day: "🌞",  

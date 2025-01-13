@@ -3,7 +3,7 @@ import {Client} from "discord.js";
 import {getCurrentTime} from "./utils.js";
 import config from "../config.js";
 
-const {bots, emojis, interval} = config;
+const {bots, emojis, interval, unavailable} = config;
 
 const monitoring = async (server) => {
     const {IP, PORT, DISCORD_BOT_TOKEN} = server;
@@ -45,7 +45,7 @@ const monitoring = async (server) => {
 
                 bot.user.setPresence({
                     activities: [
-                        {name: "🔧 Ожидание данных...", type: 4},
+                        {name: unavailable, type: 4},
                     ],
                     status: "dnd",
                 });

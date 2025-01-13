@@ -3,6 +3,9 @@ export default {
     // This defines how frequently the bot fetches server data and updates its presence.
     interval: 60,
 
+    // Status when the server is unavailable.
+    unavailable: "",
+
     // Emojis used in the bot's status to represent various states.
     emojis: {
         human: "👤",  // Emoji for players (e.g., representing the number of players online).
