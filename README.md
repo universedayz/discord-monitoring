@@ -1,6 +1,7 @@
 <div align="center">
    <img src="./.readme/assets/profile.png" alt="Profile view"/>
    <br />
+   <br />
    <img src="./.readme/assets/sidebar.png" alt="Sidebar view"/>
    <br />
    <br />
