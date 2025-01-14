@@ -1,8 +1,8 @@
 <div align="center">
    <img src="./.readme/assets/profile.png" alt="Profile view"/>
-   <br />
+   &nbsp;
    <img src="./.readme/assets/sidebar.png" alt="Sidebar view"/>
-   <br />
+   &nbsp;
    <p align="center">
       example from <a href="https://discord.com/invite/7wUk2F2Yfm">universe / DayZ</a>
    </p>
