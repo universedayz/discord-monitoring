@@ -12,7 +12,7 @@
   "license": "MIT",
   "description": "",
   "dependencies": {
-    "discord.js": "^14.17.3",
+    "discord.js": "^14.18.0",
     "gamedig": "^5.1.4",
     "nodemon": "^3.1.9"
   }
