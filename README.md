@@ -19,7 +19,7 @@
 
 1. **Clone the Repository**:
    ```
-   git clone https://github.com/intejie/dayz-discord-monitoring.git 
+   git clone https://github.com/universedayz/discord-monitoring.git 
    cd dayz-monitoring-bot  
    ```
 
